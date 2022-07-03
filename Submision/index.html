@@ -4,23 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Profile Web</title>
   </head>
   <body>
-    <!-- Header : jumbotron and nav -->
-    <header></header>
-    <!-- Main : article and aside -->
+
+    <!-- Header : jumbotron and navigation -->
+    <header>
+      <div class="flex-container">
+        <h3 class="logo">Akbar.</h3>
+        <nav>
+          <ul>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#skills">Skills</a></li>
+            <li> <a href="#documentation">Documentation</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main : profile and aside -->
     <main>
       <div class="content">
-        <section></section>
-        <section></section>
-        <section></section>
+        <div class="jumbotron"></div>
+        <article id="about">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id est laboriosam voluptates accusamus quidem magnam iste in? Nemo dolor exercitationem sit rerum placeat repellendus nihil, tenetur deleniti ex unde provident.
+        </article>
+        <article id="skills">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quibusdam perspiciatis vitae animi. Amet odio doloremque nulla qui reprehenderit aliquam ducimus libero illo minima rerum minus harum, explicabo neque atque.
+        </article>
+        <article id="documentation">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus in aliquid voluptatum porro, animi autem saepe maiores ut, dolore ex impedit quod unde magnam. Aperiam adipisci quis modi eos voluptas.
+        </article>
       </div>
-      <aside></aside>
+      <aside>
+        <header>
+          <article class="profile">
+            <header>
+              <h2>Profile</h2>
+              <p>description of my self</p>
+              <figure>
+                <img src="./assets/img/profile_default.png" alt="">
+                <figcaption>Akbar lewa agung</figcaption>
+              </figure>
+            </header>
+            <section>
+              <h3>Data diri</h3>
+              <table>
+                <table>
+                  <tr>
+                    <th>Nama</th>
+                    <td>: Akbar</td>
+                  </tr>
+                  <tr>
+                    <th>Tempat Lahir</th>
+                    <td>: Makassar</td>
+                  </tr>
+                  <tr>
+                    <th>Tanggal Lahir</th>
+                    <td>: 16 Juni 2001</td>
+                  </tr>
+                  <tr>
+                    <th>Pekerjaan</th>
+                    <td>: Mahasiswa</td>
+                  </tr>
+                  <tr>
+                    <th>Gol. Darah</th>
+                    <td>: AB</td>
+                  </tr>
+                </table>
+              </table>
+            </section>
+          </article>
+        </header>
+      </aside>
     </main>
 
     <!-- Footer : copyright info -->
-    <footer></footer>
+    <footer>
+      <p>Web tugas submission &#169; 2019, Akbar Lewa</p>
+    </footer>
+
   </body>
 </html>
